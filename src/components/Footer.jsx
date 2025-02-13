@@ -2,9 +2,17 @@
 export default function Footer() {
     return (
         <footer>
+            
+            <div class="contenitore-dc">
+
+            <div class="dc-logo-bg">
+
+                <img src="public\img\dc-logo-bg.png" alt="" />
+
+            </div>
 
             {/* DC COMICS */}
-            <div>
+            <div class="footer-dccomics">
                 <h4>DC COMICS</h4>
                 <ul>
                     <li><a href="#">Characters</a></li>
@@ -18,7 +26,7 @@ export default function Footer() {
             </div>
 
             {/* DC */}
-            <div>
+            <div class="footer-dc">
                 <h4>DC</h4>
 
                 <ul>
@@ -37,7 +45,7 @@ export default function Footer() {
             </div>
 
             {/* SITES */}
-            <div>
+            <div class="footer-sites">
                 <h4>SITES</h4>
                 <ul>
                     <li><a href="#">DC</a></li>
@@ -49,15 +57,17 @@ export default function Footer() {
             </div>
 
             {/* SHOP */}
-            <div>
+            <div class="footer-shop">
+                <h4>SHOP</h4>
                 <ul>
                     <li><a href="#">Shop DC</a></li>
                     <li><a href="#">Shop DC collectibles</a></li>
                 </ul>
             </div>
+            </div>
 
             {/* Contenitore dei loghi a fine pagina */}
-            <div>
+            <div class="loghi-finepagina">
 
                 {/* sign-up now */}
                 <div>
@@ -65,20 +75,20 @@ export default function Footer() {
                 </div>
 
                 {/* LOGO dei social */}
-                <div>
+                <div class="logo-social">
                     <h4>FOLLOWS US</h4>
 
-                    {/* ricordati di inserire i link dei loghi */}
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                    <img src="public\img\footer-facebook.png" alt="" />
+                    <img src="public\img\footer-twitter.png" alt="" />
+                    <img src="public\img\footer-youtube.png" alt="" />
+                    <img src="public\img\footer-pinterest.png" alt="" />
+                    <img src="public\img\footer-periscope.png" alt="" />
+                   
                 </div>
 
             </div>
+
+            
 
         </footer>
     );
