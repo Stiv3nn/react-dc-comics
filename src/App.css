@@ -65,9 +65,9 @@ main figure{
 /* -------------------------------------------------------------------------------------- */
 
 .contenitore-dc{
-  border: 1px solid black;
   background-image: url('C:\Users\stive\Desktop\Classe_139\react-dc-comics\public\img\footer-bg.jpg');
-  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
